@@ -29,8 +29,7 @@
     <!--[if lt IE 9]><script src="~/Home/js/respond.js"></script><![endif]-->
 </head>
 
-<body>
-    <div>
+<body class="aboutus-page">
         <div class="page-wrapper">
             <!-- Loading -->
             <div class="loading-window-outer">
@@ -207,45 +206,15 @@
                 <!-- End Mobile Menu -->
             </header>
             <!-- End Main Header -->
-            <div class="">
-                <main role="main" class="pb-3">
+            <div>
+                <main>
+            
                     @RenderBody()
                 </main>
             </div>
 
-            <!-- CTA Section -->
-            <section class="cta-section">
-                <div class="auto-container">
-                    <div class="inner-container" style="background-image: url(images/background/pattern-5.png)">
-                        <div class="row clearfix">
-                            <!-- Title Column -->
-                            <div class="title-column col-lg-5 col-md-12 col-sm-12">
-                                <div class="inner-column">
-                                    <h3>Let us take care about your veicle</h3>
-                                </div>
-                            </div>
-
-                            <!-- Form Column -->
-                            <div class="form-column col-lg-7 col-md-12 col-sm-12">
-                                <div class="inner-column">
-                                    <div class="newsletter-form">
-                                        <form method="post" action="contact.html">
-                                            <div class="form-group">
-                                                <span class="icon fa fa-envelope"></span>
-                                                <input type="email" name="email" value="" placeholder="Enter your mail" required="" />
-                                                <button type="submit" class="theme-btn flaticon-send"></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End CTA Section -->
             <!-- Main Footer -->
-            <footer class="main-footer" style="background-image: url(./Home/images/background/pattern-2.png);">
+        <footer class="main-footer" style="background-image: url(https://themeim.com/demo/carsore/images/background/footer-bg.png);">
                 <div class="auto-container">
                     <!-- Upper Box -->
                     <div class="upper-box">
@@ -285,7 +254,7 @@
                             <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                                 <div class="footer-widget logo-widget">
                                     <div class="logo">
-                                        <a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
+                                        <a href="index.html"><img src="~/Home/images/footer-logo.png" alt="" /></a>
                                     </div>
                                     <div class="text">
                                         Lorem Ipsum is simply dummy text of the printing and
@@ -552,7 +521,6 @@
             </div>
             <!-- End Contact Palate  -->
         </div>
-    </div>
     <!-- End pagewrapper -->
     <!-- Scroll To Top -->
     <div class="scroll-to-top scroll-to-target" data-target="html">
